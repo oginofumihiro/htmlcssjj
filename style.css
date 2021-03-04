@@ -5,6 +5,7 @@
 }
 
 header {
+  width: 100%;
   height: 50px;
   background-color: #ff9a4b;
 }
@@ -62,10 +63,23 @@ main {
 }
 
 footer {
+  width: 100%;
   height: 50px;
   background-color: #aaa;
 }
 
 @media screen and (max-width: 768px) {
-  
+  header {
+    width: 100%;
+   }
+
+   main {
+     width: 100%;
+     margin: 0 auto;
+     display: block;
+   }
+
+   footer {
+     width: 100%;
+   }
 }
