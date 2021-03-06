@@ -24,10 +24,6 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
-
 .step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
@@ -59,7 +55,7 @@ main {
 }
 
 .title {
-  padding: 15px 0 5px ;
+  padding: 15px 0 5px;
 }
 
 footer {
@@ -71,15 +67,28 @@ footer {
 @media screen and (max-width: 768px) {
   header {
     width: 100%;
-   }
+    display: block;
+  }
 
-   main {
-     width: 100%;
-     margin: 0 auto;
-     display: block;
-   }
+  main {
+    width: 100%;
+    margin: 50px 0 auto;
+    display: block;
+  }
 
-   footer {
-     width: 100%;
-   }
+  footer {
+    width: 100%;
+    display: block;
+  }
+
+  .step-box {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 50px;
+  }
 }
